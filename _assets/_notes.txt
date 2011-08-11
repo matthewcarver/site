@@ -1,0 +1,45 @@
+ABOUT THIS:
+
+The _assets folder is a repository for all CSS, Javascript, and Flash as well as all 
+images used in the sites CSS. Any fonts being used should be stored in the 
+/_assets/_css/_fonts folder.  The CSS folder also contains an optional folder for 
+.less files. 
+
+If you wish to use Less to prepocess your CSS, the Less App can be found here: 
+http://incident57.com/less/.  Please refrain from compiling Less server side.
+
+Files related to the associated CMS are (or should be) stored in a sub folder 
+called "app".
+
+
+ABOUT SOME OF THE FILES:
+
+global.css		This file is for all global styles.  Set your font-family here, 
+				your headers, your paragraphs, everything global.  I know it's
+				kind of self explanitory...
+				
+screen.less		This is your bread and butter.  It'll inport you colors file, as well
+				as your mixins, which is explained later.
+	
+	
+mixins.less		This Less file is for setting your mixins
+				(http://lesscss.org/#-mixins).  Here's example of how to add 5px
+				rounded corners mixin on the footer selector:
+				
+				footer{
+					.rounded(5px)
+				}
+				
+				The defaults are set at the mixin section.  Feel free to resent the
+				defaults to your hearts content.
+				
+				
+colors.less		I've set a few sample color variables in this file.  When you
+				get a PSD, make sure to get the hex values for any important colors
+				in your site.  Set these colors in the Brands sub section.  For instance
+				if the site your working on has a brand with a specific red, set the 
+				variable as @brandRed: #ff1e00;.
+				
+				
+iOS				I've dropped some media queries for iOS devices in here.  Feel free to adjust
+				to suit your needs (iPad, iPhone, ect...).

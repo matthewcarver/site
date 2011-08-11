@@ -1,0 +1,22 @@
+@import "mixins";
+@import "colors";
+
+a{color:@link;}
+a:hover{color: darken(@link, 10);}
+h1, h2, h3, h4, h5, h6{color:@headlines;}
+
+
+
+// Set selection to #777... for good luck.
+
+::-moz-selection{ background: #777; color:#fff; text-shadow: none; }
+::selection { background:#777; color:#fff; text-shadow: none; }
+
+
+//*************************
+//*****               *****
+//*****     iOS       *****
+//*****               *****
+//*************************
+
+a:link { -webkit-tap-highlight-color: #777; }

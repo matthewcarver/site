@@ -1,0 +1,30 @@
+body{font-size:16px;width:900px;margin:0 auto;}
+header h1{width:100%;display:block;position:relative;margin:0;z-index:99;padding-top:50px;color:#397cb0;font-size:5em;font-weight:900;letter-spacing:0.05em;line-height:0.7em;text-align:center;text-transform:uppercase;text-shadow:#1d537c 0 1px 0px,0 1px 0 #174569,0 2px 0 #174569,0 3px 0 #174569,0 4px 0 #174569,0 5px 0 #174569,0 8px 8px #000000,#7bb1db 0 -1px 0;}
+header span{display:block;position:relative;z-index:0;width:100%;text-align:center;text-transform:uppercase;color:#777;font-size:1.25em;font-weight:100;letter-spacing:0.1em;text-shadow:0 1px 0px #000,	#111 0 1px 0	;}
+header:after{content:" ";height:1px;width:100%;display:block;background:#000;border-bottom:1px solid #232323;margin-top:20px;}
+nav{display:block ;position:fixed;left:10px;top:0;background-image:-webkit-gradient(linear, left bottom, left top, color-stop(0, #4b94b3), color-stop(0.33, #3b9fbd), color-stop(0.88, #65b5cf), color-stop(0.99, #97ccde));background-image:-moz-linear-gradient(center bottom, #4b94b3 0%, #3b9fbd 33%, #65b5cf 88%, #97ccde 99%);box-shadow:0 0 3px #000;}nav ul{margin:0;padding:20px 10px;font-size:0.8em;}nav ul li{margin:0	padding:0;list-style:none;}nav ul li a{color:#fff;text-decoration:none;}
+body{display:block;height:auto;background:#121212;background-image:-webkit-gradient(linear, left bottom, left top, color-stop(0, #0a0a0a), color-stop(1, #1e1e1e));background-image:-moz-linear-gradient(center bottom, #0a0a0a 0%, #1e1e1e 100%);}body #wrapper{min-height:800px;display:block;float:left;}
+body #main .section{padding-top:20px;clear:both;}body #main .section .label{display:block;left:-2em;top:4em;position:relative;font-size:2.5em;padding:0.5em 1em;width:20%;border-radius:2.5em;box-shadow:-1px 0 0 #333333,inset 0 0 5px #000000;text-align:center;color:#888;font-weight:500;letter-spacing:0.1em;text-shadow:-1px 0 0 #444444,-2px 0 0 #444444,0 0 3px #000000;background:#111;display:block;-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);}
+body #main .section .content{margin-top:-40px;height:360px;width:80%;display:block;padding:0 0 0 20%;}
+body #main .about .imageWrap{width:25%;display:block;float:left;padding-top:50px;}body #main .about .imageWrap img{width:100%;box-shadow:-1px 0 0 #333333,inset 0 0 5px #000000;}
+body #main .about p{padding-left:5%;color:#c3325f;display:block;float:left;width:70%;margin:0;padding-top:45px;font-size:3.1em;text-shadow:#dc4d79 0 1px 0px,0 1px 0 #8b2645,0 2px 0 #8b2645,0 3px 0 #8b2645,0 4px 0 #8b2645,0 5px 0 #8b2645,0 8px 8px #000000,#dc4d79 0 -1px 0;}
+body #main .about a{color:#397cb0;text-decoration:none;text-shadow:#1d537c 0 1px 0px,	0 1px 0 #174569,	0 2px 0 #174569;}
+body #main #skills{width:100%;display:block;vertical-align:top;height:400px;}body #main #skills h3{color:#888;letter-spacing:0.2em;font-size:0.9em;}
+body #main #skills .skillSet{width:18%;padding:0 2% 0 0;display:inline-block;height:280px;}body #main #skills .skillSet ul{margin:0;padding:0 0 35px 0;color:#397cb0;font-size:0.8em;}body #main #skills .skillSet ul li{list-style:none;font-size:0.9em;color:#fff;text-shadow:0 1px 0 #555;width:100%;text-align:center;background:#fff;padding:3px 0;margin:5px 0;border-radius:3px;background:#333;}body #main #skills .skillSet ul li a{color:#c3325f;text-decoration:none;}
+body #main #skills .set3{width:52%;padding:0 0 0 5%;}body #main #skills .set3 h3{font-size:2.1em;color:#397cb0;margin-top:0;}
+body #main #skills .set3 span{color:#c3325f;font-size:2.5em;}
+body #main #skills .set3 p{color:#555555;font-size:1em;line-height:1.6em;}
+body #main #skills .set3 a{color:#c3325f;text-decoration:none;}
+body #main .instagram .wrapper{width:27%;padding:57px 5% 0 0;display:block;float:left;}body #main .instagram .wrapper img{width:100%;padding:0;}
+body #main .instagram .wrapper span{display:none;color:#fff;text-shadow:0 3px 5px #000;padding:5px 10px 0;margin-top:-80px;position:relative;z-index:9999;background:rgba(0, 0, 0, 0.5);height:75px;}
+body #main .instagram .wrapper:hover span{display:block;}
+body #main #connect .links{margin-top:-40px;height:360px;display:block;}
+body #main #connect a{display:block;width:100%;}body #main #connect a span{letter-spacing:0;}
+body #main #connect a.facebook{color:#111;font-size:8.8em;letter-spacing:0.11em;text-decoration:none;text-shadow:0 1px 0 #333333,#000000 0 -1px 0;-moz-transition:all 0.5s ;-webkit-transition:all 0.5s ;transition:all 0.5s ;}
+body #main #connect a.facebook:hover{color:#3B5998;text-shadow:0 1px 5px #000000,#7c94c8 0 -1px 0;}
+body #main #connect a.twitter{color:#111;width:50%;float:left;font-size:6em;letter-spacing:0.11em;text-decoration:none;text-shadow:0 1px 0 #333333,#000000 0 -1px 0;-moz-transition:all 0.5s ;-webkit-transition:all 0.5s ;transition:all 0.5s ;}
+body #main #connect a.twitter:hover{color:#33CCFF;text-shadow:0 1px 5px #000000,#98e4fd 0 -1px 0;}
+body #main #connect a.rdio{color:#111;width:30%;padding:0 0 0 5%;float:right;text-align:right;font-size:6em;letter-spacing:0.11em;text-decoration:none;text-shadow:0 1px 0 #333333,#000000 0 -1px 0;-moz-transition:all 0.5s ;-webkit-transition:all 0.5s ;transition:all 0.5s ;}
+body #main #connect a.rdio:hover{color:#0d60a3;text-shadow:0 1px 5px #000000,#559bd4 0 -1px 0;}
+body .section:after{content:" ";height:1px;width:100%;display:block;background:#000;border-bottom:1px solid #232323;margin-top:20px;}
+body .email{font-size:4em;color:#eee;display:block;text-align:center;text-decoration:none;margin:40px 200px 500px;background:#111;padding:10px 0;background:#63b742;border-radius:4em;text-transform:uppercase;text-shadow:0 -1px 0 #888888,0 1px 0 #78cc57;box-shadow:#78cc57 0 -1px 0px,0 1px 0px #498a30,0 1px 0px #498a30,0 2px 0px #498a30,0 3px 0px #498a30,0 4px 0px #498a30,0 0px 5px #666666;cursor:pointer;}

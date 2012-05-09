@@ -1,24 +1,30 @@
-.rounded(@radius: 2px) { -webkit-border-radius: @radius; -moz-border-radius: @radius; border-radius: @radius;}
+//
 
-.boxShadow(@x: 0, @y: 0, @blur:1px, @color:#000,){ box-shadow: @arguments; -moz-box-shadow: @arguments; -webkit-box-shadow: @arguments;}
+.sprite(@pos){background:url(../_images/sprite.png) no-repeat @pos;}
 
-.textShadow(@x: 0, @y: 1px, @blur:0, @color:#fff){ text-shadow: @arguments;}
+.transform(@deg){
+	transform:rotate(@deg);
+	-ms-transform:rotate(@deg); /* IE 9 */
+	-moz-transform:rotate(@deg); /* Firefox */
+	-webkit-transform:rotate(@deg); /* Safari and Chrome */
+	-o-transform:rotate(@deg); /* Opera */
+}
 
-.bkgGradient(@color: #F5F5F5, @start: 0, @stop: 255){
-	background:@color;
-	background: -webkit-gradient(linear,
-		left bottom,
-	 	left top,
-		color-stop(0, rgb(@start,@start,@start)),
-	 	color-stop(1, rgb(@stop,@stop,@stop)));
-	background: -moz-linear-gradient(center bottom,
-	    rgb(@start,@start,@start) 0%,
-	    rgb(@stop,@stop,@stop) 100%);
-}  
+.transition(@transition){
+	transition: @transition;
+	-moz-transition: @transition; 
+	-webkit-transition: @transition;
+	-o-transition: @transition;
+}
 
-.opaque(@opacity: 0.5) {
-	-moz-opacity: @opacity;
-	-khtml-opacity: @opacity;
-	-webkit-opacity: @opacity;
-	opacity: @opacity;
+.serif{
+	font-family: 'Josefin Slab', serif;
+}
+
+.sans-serif{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.decorative{
+	font-family: 'Diplomata', cursive;
 }

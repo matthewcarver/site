@@ -12,7 +12,7 @@ var bootstrap = {
 			'print'
 		],
 		js: [
-			'lib/jquery-1.5.1.min',
+			'_lib/jquery-1.5.1.min',
 			'plugins',
 			'config',
 			'application'

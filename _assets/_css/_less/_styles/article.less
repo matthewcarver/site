@@ -1,0 +1,134 @@
+// article style
+
+hgroup.blog-headline{
+	display:block;
+	width:100%;
+	text-align:center;
+	top:90px;
+	left:50%;
+	margin-left:-50%;
+	height:250px;
+	position:relative;
+	z-index:9;
+		
+		.date{
+			padding-bottom:5px;
+			display:block;
+			width:@site-width;
+			margin:0 auto 25px;
+			color:@black;
+			text-transform:uppercase;
+			text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);	
+			font-size:0.75em;
+			letter-spacing:0.25em;
+			opacity:0.7;
+			.sans-serif;
+		}
+		
+		h1{
+			color:@red;
+			font-weight:bold;
+			font-size:3.2em;
+			text-transform:uppercase;
+			text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.13);
+			opacity:1;
+			z-index:9;
+		}
+		
+		h2{
+			color:@black;
+			font-size:1em;
+			opacity:0.7;
+			text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.13);
+		}
+}//end hgroup.blog-headline
+
+article{
+	padding-top:50px;
+	padding-bottom:150px;
+	background:url(../_images/_bkg/wrapper.png) #fff;
+	z-index:999;
+	position:relative;
+	
+		p{
+		
+		font-size:1.2em;
+		line-height:1.5em;
+		padding-bottom:75px;
+		text-shadow:0 1px 0 rgba(255, 255, 255, 1);
+		
+			a{
+				color:@red;
+				text-decoration:none;
+			}
+		
+			&:first-child:first-letter{
+				font-size:2em;
+				color:@red;
+				.serif;
+			}
+			
+		}//end p
+		
+		h2{
+			color:@red;
+			text-align:center;
+			font-size:2em;
+			line-height:1em;
+			padding:20px 0 5px;
+			margin-bottom:20px;
+			border-bottom:1px solid @red;
+			text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 1);
+			box-shadow:0 1px 0 rgba(255, 255, 255, 1);
+			
+			small{
+				color: #111;
+				font-size: 0.5em;
+				opacity: .7;
+				text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25),0 1px 0 rgba(255, 255, 255, 0.13);
+				display:block;
+			}
+			
+		}
+	
+		
+}
+
+article.articles{
+	span{
+		font-size: 1.2em;
+		line-height: 1.5em;
+		padding-bottom: 25px;
+		text-shadow: 0 1px 0 white;
+		font-family: 'Open Sans',sans-serif;
+		
+		a{
+			color:@red;
+			text-decoration:none;
+		}
+	}
+}
+
+article.about-me{
+	
+	figure{
+		width:100%;
+		display:block;
+		margin:0 auto;
+		padding:0 0 50px 0;
+		
+			img{
+				border-radius:5px;
+				margin:0 auto;
+				display:block;
+			}
+			
+			figcaption{
+				.sans-serif;
+				font-style:italic;
+				font-size:0.6em;
+				text-align:center;
+				padding-top:10px;
+			}
+	}
+}

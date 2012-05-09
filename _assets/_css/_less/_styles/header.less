@@ -1,0 +1,64 @@
+// Header Style
+
+header{
+	width:100%;
+	height:95px;
+	padding-top:25px;
+	display:block;
+	float:left;
+	position:fixed;
+	z-index:9;
+	
+	.head-wrap{
+		width:@site-width;
+		display:block;
+		margin:0 auto;
+		border-bottom:1px solid @black;
+		box-shadow:0 1px 0 rgba(255, 255, 255, 0.35);
+		height:75px;
+		opacity:0.7;
+		
+		#logo{
+			color:@black;
+			text-decoration:none;
+			display:block;
+			float:left;
+			font-size:1.5em;
+			
+			h1{
+				margin:0;
+				padding:0;
+				text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);
+			}
+		}
+		
+		nav#global{
+			padding-top:28px;
+			width:40%;
+			display:block;
+			float:right;
+			text-align:right;
+			
+			ul{
+				width:100%;
+				li{
+					width:33%;
+					display:block;
+					float:left;
+					
+					a{
+						font-size:0.8em;
+						letter-spacing:0.15em;
+						.sans-serif;
+						color:@black;
+						text-decoration:none;
+						text-transform:uppercase;
+						text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);
+					}
+				}
+			}
+		}
+	}
+
+	
+}//end header

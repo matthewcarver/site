@@ -1,21 +1,35 @@
-//	Less Boilerplate by Matthew Carver (@matthew_carver)
-//	
-//	"Good artists borrow, but great artists steal.  
-//	It takes a true genius to borrow, steal and
-//	misqoute." - Pablo Picasso
-//	
-//	To give credit where it's due, here are some of the
-//	people I've borrowed from:
+// Responsive {less} framework
 //
-//  Mark Dotto (Less Boilerplate: http://markdotto.com/bootstrap/)
-//	Jake Smith (FearLess: https://github.com/jakefolio/FearLESS)
-//  Dmitry Fadeyev (LESS Elements 0.4: http://lesselements.com)
+// Part of the Survery v0.1 Boilerplate
+// 
+// Developed by Matthew Carver(@matthew_carver)
+//
 
-body{font-size:16px; width:900px; margin:0 auto;}
+// Full Sized Site Context
 
+@site-width:800px;
+
+html{}
+body{font-size:20px; background:url(../_images/_tile/wood.jpg); background-attachment:fixed; margin:0; } 
+#wrapper{width:100%; background:url(../_images/_bkg/wrapper.png) #fff; display:block; float:left; margin-top:120px; position:relative; z-index:999;}
+#wrapper #content{width:@site-width; margin:0 auto; display:block; }
+ 
+
+
+@import "colors"; 
 @import "mixins";
-@import "colors";
-@import "_sections/header"; 
-@import "_sections/nav";
-@import "_sections/footer";
-@import "_sections/main";
+@import "global";
+@import "responsive"; 
+
+
+//Styles
+@import "_styles/header";
+@import "_styles/nav";
+@import "_styles/masthead";
+@import "_styles/article";
+@import "_styles/footer";
+@import "_styles/form";
+@import "_styles/work";
+@import "_styles/about"; 
+
+ 

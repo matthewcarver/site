@@ -1,0 +1,84 @@
+// Responsive Layouts
+
+//Laptop / iPad Landscape
+@media (max-width: 1050px){
+body{
+	header{
+		position: absolute;
+		}
+}
+}
+
+//Netbook / iPad Portrait
+@media (max-width: 800px){
+	body{
+		
+		header .head-wrap {
+			width: 600px;
+		}
+		
+		font-size: 16px;
+		
+		hgroup.blog-headline .date {
+			width:600px;
+		}
+		
+		#wrapper #content {
+			width: 600px;
+		}
+	}
+
+}
+//end Netbook / iPad Portrait
+
+//Mobile Landscape
+@media (max-width: 640px){
+
+	body{
+		
+		font-size:14px;
+		
+		header .head-wrap{
+			width:100%;
+			
+			#logo {
+			display: block;
+			font-size: 1em;
+			width: 100%;
+			text-align: center;
+			}
+			
+			nav#global {
+			padding-top: 12px;
+			width: 100%;
+			display: block;
+			float: right;
+			text-align: center;
+			}
+		} 
+
+			hgroup.blog-headline .date {
+				width:100%;
+			}
+
+			#wrapper #content {
+				width: 100%;
+			}
+		
+
+	}
+
+}
+//end Mobile Landscape
+
+//Mobile Portrait
+@media (max-width: 320px){
+
+}
+//end Mobile Portrait
+
+//iPhone Retina Display
+@media (-webkit-min-device-pixel-ratio: 2){
+
+}
+//end iPhone Retina Display
